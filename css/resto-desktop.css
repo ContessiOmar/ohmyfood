@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) {
+
+    
+
+    .image-principal img {
+        height: 474px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+        margin-left: 12%;
+        background-color: rgb(247, 247,247);
+        margin-bottom: 10px;
+    }
+
+    article {
+        width: 50em;
+        background-color: white;
+    }
+
+    .check {
+        width:9%;
+        border-radius: 0;
+    }
+
+    article:hover span {
+        margin-right: 10%;
+    }
+
+    .commander #explorer button {
+        width: 10em;
+    }
+
+    footer h1 {
+        flex:0;
+    }
+}

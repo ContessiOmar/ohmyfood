@@ -1,0 +1,55 @@
+.loader {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    animation: loader-fadeout 1900ms forwards;
+}
+
+@keyframes loader-fadeout {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.spinner {
+    border: 8px solid white;
+    border-top: 8px solid blue;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader p {
+    margin-top: 20px;
+}
+
+header, main {
+    opacity: 0;
+    animation: showPage 6s forwards;
+  }
+  
+  @keyframes showPage {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
