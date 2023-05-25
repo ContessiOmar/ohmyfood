@@ -3,39 +3,42 @@
 body {
     font-family: 'Roboto', sans sans-serif;
     overflow-x: hidden;
-    margin: 2%;
 }
 
 header {
     display: flex;
     justify-content: center;
     font-family: 'Shrikhand';
-    margin-top: 5px;
-
 }
 
+main {
+    margin: 2%
+}
 
 /**CLASS-INTRO**/
 .intro {
     display: flex;
     flex-direction: column;
+    background: #EAEAEA;
+    margin: -2%;
 }
 
 .intro h3 {
     text-align: center;
     font-size: 24px;
+    font-weight: bold;
     margin-bottom: 0;
 }
 
 .intro form {
     justify-content: center;
     padding: 10px;
-    background-color: #EAEAEA;
+    background-color: #d2d2d2;
     text-align: center;
 }
 
 .intro form input {
-    background-color: #EAEAEA;
+    background-color: #d2d2d2;
     border: none;
     text-align: center;
 }
@@ -54,9 +57,13 @@ p,
     border-radius: 25px;
     height: 50px;
     width: 52%;
-    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    background: linear-gradient(193.33deg,#9356DC -11.44%, #FF79DA 123.93%);
     color: white;
     border: none;
+}
+
+#explorer {
+    margin-bottom: 50px;
 }
 
 .intro button span {
@@ -74,6 +81,7 @@ p {
 
 /**FONCTIONNEMENT**/
 
+
 .Fonctionnement .step-elmnt {
     display: flex;
     position: relative;
@@ -87,7 +95,7 @@ p {
     border: none;
 }
 
-.Fonctionnement .step-elmnt > span {
+.Fonctionnement .step-elmnt>span {
     position: absolute;
     left: -5px;
     width: 20px;
@@ -176,7 +184,7 @@ p {
 }
 
 .like>i:first-of-type:hover {
-    
+
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -187,7 +195,7 @@ p {
     pointer-events: initial;
 }
 
-.like>i:nth-of-type(2):hover{
+.like>i:nth-of-type(2):hover {
     animation: fillIcon 1000ms forwards;
 }
 
@@ -209,14 +217,13 @@ p {
 
 }
 
-
 /**FOOTER**/
 
 footer {
     background: #353535;
     padding: 22px 25px;
     margin: -9px;
-   
+
 }
 
 footer h1 {
