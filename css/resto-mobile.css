@@ -46,6 +46,8 @@
     }
 }
 
+/*CONTENT*/
+
 body {
     display: flex;
     flex-direction: column;
@@ -81,6 +83,21 @@ main {
     margin-top: -30px;
     z-index: 100;
     background-color: white;
+}
+
+#titre {
+    display: flex;
+    justify-content: space-between;
+}
+
+#titre h2 {
+    font-family: 'Shrikhand';
+    font-size: 25px;
+    margin-left: 4%;
+}
+
+#titre .like {
+    margin-right: 4%;
 }
 
 h3 {
