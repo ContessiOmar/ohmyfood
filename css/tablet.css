@@ -10,6 +10,16 @@
         margin-left: 0;
     }
 
+    .Fonctionnement {
+        margin-top: 5%;
+        margin: 2%;
+    }
+
+    .Resto {
+        margin: 2%;
+        width: 96%;
+    }
+
     footer h1 {
         width:100%;
         text-align: center;
