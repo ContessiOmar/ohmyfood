@@ -11,10 +11,6 @@ header {
     font-family: 'Shrikhand';
 }
 
-main {
-    margin: 2%
-}
-
 /**CLASS-INTRO**/
 .intro {
     display: flex;
@@ -57,7 +53,7 @@ p,
     border-radius: 25px;
     height: 50px;
     width: 52%;
-    background: linear-gradient(193.33deg,#9356DC -11.44%, #FF79DA 123.93%);
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     color: white;
     border: none;
 }
@@ -81,6 +77,9 @@ p {
 
 /**FONCTIONNEMENT**/
 
+.Fonctionnement {
+    margin: 5%;
+}
 
 .Fonctionnement .step-elmnt {
     display: flex;
@@ -125,7 +124,8 @@ p {
 .Resto {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
+    margin: 5%;
 }
 
 .Resto h2 {
@@ -178,7 +178,7 @@ p {
 
 .like>i {
     line-height: 70px;
-    font-size: 1.7em;
+    font-size: 24px;
     visibility: visible;
     transition: opacity 1000ms;
 }
@@ -203,9 +203,14 @@ p {
     100% {
         opacity: 1;
         pointer-events: initial;
-        color: purple;
+        color: transparent;
+        background-image: linear-gradient(to right, #9356dc, #ff79da);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
+
+
 
 .card a i:hover {
     color: purple;
