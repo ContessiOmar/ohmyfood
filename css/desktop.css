@@ -76,6 +76,14 @@
         margin-left: 0;
     }
 
+    #titre {
+        justify-content: center;
+    }
+
+    #titre h2 {
+        padding: 10px;
+    }
+
     /*FOOTER*/
 
     footer {
