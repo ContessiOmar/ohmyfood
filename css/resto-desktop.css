@@ -23,6 +23,7 @@
 
     article {
         width: 50em;
+        max-width: 100%;
         background-color: white;
     }
 
