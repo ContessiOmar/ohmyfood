@@ -26,7 +26,7 @@ article:hover {
     display: flex;
     flex-direction: column;
     background: #EAEAEA;
-    margin: -3%;
+    margin: -15px;
 }
 
 .intro h3 {
