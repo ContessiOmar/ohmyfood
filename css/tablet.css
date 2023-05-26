@@ -9,6 +9,10 @@
         width:100%;
         margin-left: 0;
     }
+    
+    .intro {
+        margin: -1.5%;
+    }
 
     .Fonctionnement {
         margin-top: 5%;

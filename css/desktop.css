@@ -1,5 +1,8 @@
 @media screen and (min-width: 1024px) {
 
+    .intro {
+        margin: -1.5%;
+    }
 
     .Fonctionnement {
         display:flex;
